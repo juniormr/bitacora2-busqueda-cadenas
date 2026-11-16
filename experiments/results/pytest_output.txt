@@ -1,0 +1,57 @@
+============================= test session starts =============================
+platform win32 -- Python 3.12.0, pytest-9.2.0, pluggy-1.7.0 -- C:\Users\junior\Documents\Maestria\Analisis y diseño de algoritmos\2\busqueda_cadenas\.venv\Scripts\python.exe
+cachedir: .pytest_cache
+hypothesis profile 'default'
+rootdir: C:\Users\junior\Documents\Maestria\Analisis y diseño de algoritmos\2\busqueda_cadenas
+plugins: hypothesis-6.170.15
+collecting ... collected 47 items
+
+tests/test_boyer_moore.py::TestBoyerMooreUnitarios::test_ambos_vacios PASSED [  2%]
+tests/test_boyer_moore.py::TestBoyerMooreUnitarios::test_coincidencia_exacta PASSED [  4%]
+tests/test_boyer_moore.py::TestBoyerMooreUnitarios::test_multiples_ocurrencias PASSED [  6%]
+tests/test_boyer_moore.py::TestBoyerMooreUnitarios::test_ocurrencias_superpuestas PASSED [  8%]
+tests/test_boyer_moore.py::TestBoyerMooreUnitarios::test_patron_al_final PASSED [ 10%]
+tests/test_boyer_moore.py::TestBoyerMooreUnitarios::test_patron_caracter_unico_repetido PASSED [ 12%]
+tests/test_boyer_moore.py::TestBoyerMooreUnitarios::test_patron_mas_largo_que_texto PASSED [ 14%]
+tests/test_boyer_moore.py::TestBoyerMooreUnitarios::test_patron_vacio PASSED [ 17%]
+tests/test_boyer_moore.py::TestBoyerMooreUnitarios::test_sin_coincidencias PASSED [ 19%]
+tests/test_boyer_moore.py::TestBoyerMooreUnitarios::test_texto_vacio PASSED [ 21%]
+tests/test_boyer_moore.py::TestBoyerMooreUnitarios::test_un_solo_caracter PASSED [ 23%]
+tests/test_boyer_moore.py::TestBoyerMoorePropiedades::test_coincide_con_str_find PASSED [ 25%]
+tests/test_boyer_moore.py::TestBoyerMoorePropiedades::test_orden_y_validacion PASSED [ 27%]
+tests/test_boyer_moore.py::TestBoyerMooreDiferencial::test_diferencial_vs_regex PASSED [ 29%]
+tests/test_boyer_moore.py::TestBoyerMooreDiferencial::test_diferencial_vs_str_find PASSED [ 31%]
+tests/test_kmp.py::TestKMPUnitarios::test_ambos_vacios PASSED            [ 34%]
+tests/test_kmp.py::TestKMPUnitarios::test_caracter_no_presente PASSED    [ 36%]
+tests/test_kmp.py::TestKMPUnitarios::test_coincidencia_exacta PASSED     [ 38%]
+tests/test_kmp.py::TestKMPUnitarios::test_multiples_ocurrencias PASSED   [ 40%]
+tests/test_kmp.py::TestKMPUnitarios::test_ocurrencias_superpuestas PASSED [ 42%]
+tests/test_kmp.py::TestKMPUnitarios::test_patron_al_final PASSED         [ 44%]
+tests/test_kmp.py::TestKMPUnitarios::test_patron_mas_largo_que_texto PASSED [ 46%]
+tests/test_kmp.py::TestKMPUnitarios::test_patron_vacio PASSED            [ 48%]
+tests/test_kmp.py::TestKMPUnitarios::test_sensible_a_mayusculas PASSED   [ 51%]
+tests/test_kmp.py::TestKMPUnitarios::test_sin_coincidencias PASSED       [ 53%]
+tests/test_kmp.py::TestKMPUnitarios::test_texto_vacio PASSED             [ 55%]
+tests/test_kmp.py::TestKMPUnitarios::test_un_solo_caracter PASSED        [ 57%]
+tests/test_kmp.py::TestKMPPropiedades::test_coincide_con_str_find PASSED [ 59%]
+tests/test_kmp.py::TestKMPPropiedades::test_invariante_funcion_de_fallo PASSED [ 61%]
+tests/test_kmp.py::TestKMPDiferencial::test_diferencial_vs_regex PASSED  [ 63%]
+tests/test_kmp.py::TestKMPDiferencial::test_diferencial_vs_str_find PASSED [ 65%]
+tests/test_rabin_karp.py::TestRabinKarpUnitarios::test_ambos_vacios PASSED [ 68%]
+tests/test_rabin_karp.py::TestRabinKarpUnitarios::test_coincidencia_exacta PASSED [ 70%]
+tests/test_rabin_karp.py::TestRabinKarpUnitarios::test_colision_de_hash PASSED [ 72%]
+tests/test_rabin_karp.py::TestRabinKarpUnitarios::test_multiples_ocurrencias PASSED [ 74%]
+tests/test_rabin_karp.py::TestRabinKarpUnitarios::test_ocurrencias_superpuestas PASSED [ 76%]
+tests/test_rabin_karp.py::TestRabinKarpUnitarios::test_patron_al_final PASSED [ 78%]
+tests/test_rabin_karp.py::TestRabinKarpUnitarios::test_patron_mas_largo_que_texto PASSED [ 80%]
+tests/test_rabin_karp.py::TestRabinKarpUnitarios::test_patron_vacio PASSED [ 82%]
+tests/test_rabin_karp.py::TestRabinKarpUnitarios::test_sin_coincidencias PASSED [ 85%]
+tests/test_rabin_karp.py::TestRabinKarpUnitarios::test_texto_vacio PASSED [ 87%]
+tests/test_rabin_karp.py::TestRabinKarpUnitarios::test_un_solo_caracter PASSED [ 89%]
+tests/test_rabin_karp.py::TestRabinKarpPropiedades::test_coincide_con_str_find PASSED [ 91%]
+tests/test_rabin_karp.py::TestRabinKarpPropiedades::test_indices_validos PASSED [ 93%]
+tests/test_rabin_karp.py::TestRabinKarpPropiedades::test_orden_ascendente PASSED [ 95%]
+tests/test_rabin_karp.py::TestRabinKarpDiferencial::test_diferencial_vs_regex PASSED [ 97%]
+tests/test_rabin_karp.py::TestRabinKarpDiferencial::test_diferencial_vs_str_find PASSED [100%]
+
+============================= 47 passed in 1.05s ==============================
